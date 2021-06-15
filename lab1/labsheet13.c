@@ -20,17 +20,13 @@ int main()
 		printf("Do you want to enter another:");
 		clean_stdin();
 		scanf("%c",&another);
-		if(another == 'y' || another == 'Y')
-			++i;
-		else
-			break;
 
-	}while(1);
+	}while(another == 'y' || another == 'Y');
 	total = i;
 	printf("\n\n\t\tMarks of students in C programming");
-	printf("\nStudents\t\t\tMarks");
+	printf("\nStudents\tMarks\n");
 	for(i=0;i <= total; ++i) 
-		printf("\n%-20s%d", s[i].name, s[i].marks);
+		printf("%-20s%d\n", s[i].name, s[i].marks);
 
 
 
