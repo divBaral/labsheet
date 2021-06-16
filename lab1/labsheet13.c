@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 struct student {
 	char name[25];
@@ -20,12 +19,13 @@ int main()
 		printf("Do you want to enter another:");
 		clean_stdin();
 		scanf("%c",&another);
+		++i;
 
 	}while(another == 'y' || another == 'Y');
 	total = i;
 	printf("\n\n\t\tMarks of students in C programming");
 	printf("\nStudents\tMarks\n");
-	for(i=0;i <= total; ++i) 
+	for(i=0;i<total; ++i) 
 		printf("%-20s%d\n", s[i].name, s[i].marks);
 
 

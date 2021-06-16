@@ -49,6 +49,8 @@ int main()
 		
 		printf("%-20s%-5d%-20s%ld\n",st[i].name,st[i].roll,st[i].addr,st[i].phone);
 	}
+	fclose(fp);
+	return 0;
 
 
 
