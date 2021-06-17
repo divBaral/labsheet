@@ -15,10 +15,10 @@ int main()
 	sa=inc(sa,12);
 	pgr=inc(pgr,12);
 	cout<<left<<setw(30)<<"Ranks"<< "Net Payment"<<endl<<endl;
-	cout<<setw(30)<<"Chief executive officer"<<":Rs."<<setw(8)<<ceo<<endl;
-	cout<<setw(30)<<"Information officer"<<":Rs."<<setw(8)<<io<<endl;
-	cout<<setw(30)<<"System analyst"<<":Rs."<<setw(8)<<sa<<endl;
-	cout<<setw(30)<<"Programmer"<<":Rs."<<setw(8)<<pgr<<endl;
+	cout<<setw(30)<<"Chief executive officer"<<":Rs "<<setw(8)<<fixed<<setprecision(2)<<ceo<<endl;//fixed isn't variable it is std::fixed
+	cout<<setw(30)<<"Information officer"<<":Rs "<<setw(8)<<io<<endl;
+	cout<<setw(30)<<"System analyst"<<":Rs "<<setw(8)<<sa<<endl;
+	cout<<setw(30)<<"Programmer"<<":Rs "<<setw(8)<<pgr<<endl;
 
 	return 0;
 }
