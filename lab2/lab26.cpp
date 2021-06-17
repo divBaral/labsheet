@@ -4,7 +4,7 @@ using namespace std;
 
 inline double inc(double sal,int per)
 {
-	return sal+per/100*sal;
+	return sal+per/100.0*sal;
 }
 
 int main()
