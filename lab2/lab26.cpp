@@ -14,11 +14,11 @@ int main()
 	io=inc(io,10);
 	sa=inc(sa,12);
 	pgr=inc(pgr,12);
-	cout << "Net Payment\n"<<endl;
-	cout<<"Chief executive officer:"<<setw(8)<<"Rs "<<ceo<<endl;
-	cout<<"Information officer:"<<setw(8)<<"Rs "<<io<<endl;
-	cout<<"System analyst:"<<setw(8)<<"Rs "<<sa<<endl;
-	cout<<"Programmer:"<<setw(8)<<"Rs "<<pgr<<endl;
+	cout<<left<<setw(25)<<"Ranks"<<"|"<<setw(15)<< "Net Payment"<<endl;
+	cout<<setw(25)<<"Chief executive officer"<<":"<<"Rs."<<setw(8)<<ceo<<endl;
+	cout<<setw(25)<<"Information officer"<<":"<<"Rs."<<setw(8)<<io<<endl;
+	cout<<setw(25)<<"System analyst"<<":"<<"Rs."<<setw(8)<<sa<<endl;
+	cout<<setw(25)<<"Programmer"<<":"<<"Rs."<<setw(8)<<pgr<<endl;
 
 	return 0;
 }
