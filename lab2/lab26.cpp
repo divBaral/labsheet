@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-inline double inc(double sal,int per)
+inline double inc(double sal,int per=10)
 {
 	return sal+per/100.0*sal;
 }
