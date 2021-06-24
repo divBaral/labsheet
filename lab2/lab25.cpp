@@ -11,6 +11,6 @@ int main()
 	cout << "Enter income:" ;
 	double income;
 	cin >> income;
-	cout<<"Your net payment by company:"<<netpay(income);
+	cout<<"\nYour net payment by company:"<<netpay(income);
 	return 0;
 }
