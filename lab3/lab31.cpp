@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Celsius{
 	float cel;
 public:
@@ -8,6 +9,7 @@ public:
 	float toFahrenheit(){return cel*9.0/5.0 +32;}
 
 };
+
 class Fahrenheit{
 	float fah;
 public:

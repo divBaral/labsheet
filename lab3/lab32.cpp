@@ -1,5 +1,4 @@
 #include <iostream>
-#include <climits>
 #include <vector>
 using namespace std;
 
@@ -25,14 +24,14 @@ public:
 	}
 	void print()
 	{
-		for ( auto x : v)
-			std::cout << x << endl;
+		for ( int x : v)
+			std::cout << x << std::endl;
 	}
 
 	
 private:
 	int n;
-	vector<int> v;
+	std::vector<int> v;
 };
 
 
@@ -51,5 +50,6 @@ int main()
 	} while ( res == 'y' );
 	cout << "Primes are:" << endl;
 	p.print();
+	return 0;
 
 }
