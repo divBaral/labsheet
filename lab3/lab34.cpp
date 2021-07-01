@@ -73,7 +73,7 @@ public:
 		float s = (a + b + c) / 2;
 		return sqrt(s*(s-a)*(s-b)*(s-c));
 	}
-	float peri() { return (a + b + c) / 2;}
+	float peri() { return (a + b + c);}
 private:
 	float a,b,c;
 	
