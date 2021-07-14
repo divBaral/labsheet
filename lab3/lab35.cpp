@@ -32,7 +32,7 @@ int main()
 	int n;
 	cin >> n;
 	const int size = n;
-	Employee e[n];
+	Employee e[size];
 	int id;
 	double bon;
 	float ot;

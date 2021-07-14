@@ -1,0 +1,401 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pos",
+				"Position_Adder"
+			],
+			[
+				"P",
+				"Positionorps"
+			],
+			[
+				"O",
+				"Position"
+			],
+			[
+				"co",
+				"Complex"
+			],
+			[
+				"tota",
+				"total_year"
+			],
+			[
+				"fin",
+				"fin_year"
+			],
+			[
+				"Expen",
+				"expenditure"
+			],
+			[
+				"ini",
+				"ini_year"
+			],
+			[
+				"avg",
+				"avg_year"
+			]
+		]
+	},
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"colorsh",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"indentation",
+				"Indentation: Detect"
+			],
+			[
+				"Package Control: Install Package ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+			"clear",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/baral/code/labsheet/lab5/lab54.cpp",
+		"/home/baral/code/labsheet/lab5/lab51.cpp",
+		"/home/baral/code/labsheet/lab5/lab53.cpp",
+		"/home/baral/code/labsheet/lab5/outputf.in",
+		"/home/baral/Downloads/p1.cpp",
+		"/home/baral/Downloads/p4.cpp",
+		"/home/baral/code/labsheet/lab1/lab12.c",
+		"/home/baral/new",
+		"/home/baral/code/labsheet/lab4/outputf.in",
+		"/home/baral/code/labsheet/lab4/lab42.cpp",
+		"/home/baral/code/labsheet/lab4/lab45.cpp",
+		"/home/baral/code/labsheet/lab.sublime-project",
+		"/home/baral/code/labsheet/n",
+		"/home/baral/code/list",
+		"/home/baral/code/labsheet/lab3/lab31.cpp",
+		"/home/baral/code/sdl/include/RenderWindow.hpp",
+		"/home/baral/code/sdl/src/main.cpp",
+		"/home/baral/code/sdl/sdl.sublime-project",
+		"/home/baral/.config/sublime-text-3/Packages/Default/exec.py",
+		"/home/baral/code/1",
+		"/home/baral/code/labsheet/lab3/lab35.cpp",
+		"/home/baral/code/labsheet/lab3/lab34.cpp",
+		"/home/baral/code/labsheet/lab3/lab33.cpp",
+		"/home/baral/code/labsheet/lab3/lab32.cpp",
+		"/home/baral/code/labsheet/lab3/outputf.in",
+		"/home/baral/code/labsheet/lab3/inputf.in",
+		"/home/baral/code/outputf.in",
+		"/home/baral/code/inputf.in",
+		"/home/baral/code/2.cpp",
+		"/home/baral/code/1.cpp",
+		"/home/baral/code/Token.h",
+		"/home/baral/code/calfuns.cpp",
+		"/home/baral/code/cal.cpp",
+		"/home/baral/Downloads/exercise_solutions/Solutions/Ch5/e5-10.cpp",
+		"/home/baral/Documents/electronics/notes",
+		"/home/baral/code/Graph.h",
+		"/home/baral/code/GUI.cpp",
+		"/home/baral/code/Simple_window.h",
+		"/home/baral/code/labsheet/README.md",
+		"/home/baral/code/labsheet/lab2/outputf.in",
+		"/home/baral/code/labsheet/lab2/lab26.cpp",
+		"/home/baral/code/labsheet/lab2/lab24.cpp",
+		"/home/baral/code/labsheet/lab2/lab23.cpp",
+		"/home/baral/code/labsheet/lab2/lab22.cpp",
+		"/home/baral/code/labsheet/lab2/inputf.in",
+		"/home/baral/code/labsheet/lab2/lab25.cpp",
+		"/home/baral/Downloads/hosts.ics",
+		"/home/baral/code/labsheet/lab2/lab26",
+		"/home/baral/code/labsheet/lab2/lab21.cpp",
+		"/home/baral/Downloads/hwontdebuglog.log",
+		"/home/baral/Downloads/How I Met Your Mother Season 2/How to play HEVC (THIS FILE).txt",
+		"/home/baral/code/lab21.cpp",
+		"/home/baral/code/lab22.cpp",
+		"/home/baral/code/lab23.cpp",
+		"/home/baral/code/lab24.cpp",
+		"/home/baral/code/lab25.cpp",
+		"/home/baral/code/lab26.cpp",
+		"/home/baral/cmd.note",
+		"/home/baral/code/std_lib.h",
+		"/home/baral/code/labsheet/lab1/outputf.in",
+		"/home/baral/code/labsheet/lab1/inputf.in",
+		"/home/baral/code/labsheet/lab1/labsheet14.c",
+		"/home/baral/code/labsheet/lab1/labsheet13.c",
+		"/home/baral/code/labsheet12.c",
+		"/home/baral/code/labsheet/lab1/labsheet12.c",
+		"/home/baral/code/labsheet/labsheet13.c",
+		"/home/baral/code/student.dat",
+		"/home/baral/code/labsheet14.c",
+		"/home/baral/code/roshan.cpp",
+		"/home/baral/code/labsheet13.c",
+		"/home/baral/.config/sublime-text-3/Packages/User/fltk.sublime-build",
+		"/home/baral/Proteus/README.TXT",
+		"/home/baral/Downloads/Proteus 8/Crack/Help.txt",
+		"/home/baral/Downloads/Upesh/G900LKLU1CPL5_G900LLUC1CPL5_LUC/Firmware/movile",
+		"/home/baral/Downloads/Upesh/G900LKLU1CPL5_G900LLUC1CPL5_LUC/Firmware/mobile",
+		"/home/baral/.wine/drive_c/Program Files (x86)/Proteus 7/Labcenter Electronics/Proteus 7 Professional/README.TXT",
+		"/home/baral/Downloads/Upesh/G900LKLU1CPL5_G900LLUC1CPL5_LUC/Credits.txt",
+		"/home/baral/Downloads/Proteus 8/Instructions.txt",
+		"/home/baral/Downloads/Proteus 8.6 SP2/ReadMe.txt",
+		"/home/baral/.wine/drive_c/ReadMe.txt",
+		"/home/baral/work/article_4/linear.tex",
+		"/home/baral/work/article_4/structure.tex",
+		"/home/baral/.config/vlc/vlc-qt-interface.conf",
+		"/home/baral/.config/vlc/vlcrc",
+		"/home/baral/work/article_4/article_4.tex",
+		"/home/baral/work/article_4/linear.log",
+		"/home/baral/book_2/structure.tex",
+		"/home/baral/book_2/linear.tex",
+		"/home/baral/book_2/main.tex",
+		"/home/baral/work/latex.tex",
+		"/home/baral/Downloads/book_2/main.tex",
+		"/home/baral/Downloads/book_2/structure.tex",
+		"/home/baral/work/structure.tex",
+		"/home/baral/work/latex.log",
+		"/home/baral/code/main.c",
+		"/home/baral/code/joournal/-- Journal begins at Wed 2021-05-12 08:41:33 +0545",
+		"/home/baral/code/joournal/-- Journal begins at Tue 2021-05-11 23:19:02 +0545",
+		"/home/baral/code/-- Journal begins at Wed 2021-05-12 08:41:33 +0545",
+		"/home/baral/code/-- Journal begins at Tue 2021-05-11 23:19:02 +0545",
+		"/home/baral/code/namespace.cpp",
+		"/home/baral/.bash_history",
+		"/home/baral/code/Vector.h",
+		"/home/baral/code/modularity.cpp",
+		"/home/baral/code/separate_complilation.cpp",
+		"/home/baral/code/vectors.cpp",
+		"/home/baral/code/class.cpp",
+		"/home/baral/code/enumerations.cpp",
+		"/home/baral/noteforum",
+		"/home/baral/custom-dhcp-profile.bak",
+		"/home/baral/.bashrc",
+		"/home/baral/code/note",
+		"/home/baral/exec",
+		"/home/baral/Documents/n/MTE-08 Differential Equations/diff/exec",
+		"/home/baral/homework",
+		"/home/baral/rmlint.sh",
+		"/home/baral/rmlint.json",
+		"/home/baral/code/output.f",
+		"/home/baral/code/input.f",
+		"/home/baral/Sess*",
+		"/home/baral/.config/sublime-text-3/Local/Session.sublime_session",
+		"/home/baral/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/baral/.config/sublime-text-3/Packages/User/c++14",
+		"/home/baral/.config/sublime-text-3/Packages/User/C++14.sublime-build"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"oprs",
+			"const&",
+			"i2",
+			"t.min",
+			"t.hr",
+			"t.sec",
+			"Dog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++14.sublime-build",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/code/inputf.in"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
