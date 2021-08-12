@@ -39,11 +39,14 @@ int main()
     Point p1(3, 2, 3.4);
     Point p2(1, 2, 3.5);
     Point p3 = p1 + p2;
+    Point p4 = p1 - p2;
 
     p1.show();
     p2.show();
-    cout << "After adding \n";
+    cout << "\nAfter adding \n";
     p3.show();
+    cout << "\nAfter subtracting \n";
+    p4.show();
     
 
 

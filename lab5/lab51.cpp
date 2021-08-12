@@ -15,7 +15,6 @@ Make least possible classes to demonstrate all the above in a single program wit
 
 class Position_Operations;
 class Position;
-    static Position add(const Position &p1, const Position &p2);
 
 class Position_Adder{
 public:
@@ -38,7 +37,7 @@ public:
 		std::cout << '(' << x << ',' << y << ')' << std::endl;
 
 	}
-public:
+private:
 	float x,y;
 };
 class Position_Operations {
@@ -77,7 +76,7 @@ int main()
 	ap = Position_Adder::add(p1, p2);
 	sp = Position_Operations::subtract(p1, p2);
 	mp = Position_Operations::multiply(p1, p2);
-	dp = Position_Operations::multiply(p1, p2);
+	dp = Position_Operations::divide(p1, p2);
 
 	std::cout << "Given points"<< std::endl;
 	p1.display();

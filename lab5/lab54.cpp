@@ -1,31 +1,37 @@
+/*
+Write a class Date that overloads prefix and postfix operators to increase the Date object by one day, while causing appropriate increments to the month and year (use the appropriate condition for leap year). The prefix and postfix operators in the Date class should behave exactly like the built-in increment operators.
+*/
+
+
 #include <iostream>
 
 
 constexpr int days_in_months[] = {0, 30, 28, 31, 30, 31, 30,31,31, 30, 31, 30, 31};
 class Date {
-    int yy, mm, dd;
+private:
+    int y, m, d;
 
 public:
-    Date() : yy(0), mm(0), dd(0) {}
-    Date(int y, int m, int d) : yy(y), mm(m), dd(d) {}
+    Date(int p_y = 0, int p_m = 0, int p_d =0)
+    :y{p_y}, d{p_d}, m{p_m} 
+    {}
 
 
     // prefix
     Date &operator++() 
     {
-        ++dd;
-        if (dd > days_in_months[mm]) {
-            if (mm == 2 && ((yy % 4) == 0) && ((yy % 100) != 0 || (yy % 400) == 0)) {
-                if (dd > 29) {
-                    ++mm;
-                    dd = 1;
-                }
-            } else {
-                dd = 1;
-                ++mm;
-                if (mm > 12) {
-                    mm = 1;
-                    ++yy;
+        ++d;
+        if (d > days_in_months[m]) {
+            if (m == 2 && ((y % 4) == 0) && ((y % 100) != 0 || (y % 400) == 0)) {
+                ++m;
+                d = 1;
+            } 
+            else {
+                d = 1;
+                ++m;
+                if (m > 12) {
+                    m = 1;
+                    ++y;
                 }
             }
         }
@@ -36,19 +42,17 @@ public:
     Date& operator++(int) 
     {
         
-        dd++;
-        if (dd > days_in_months[mm]) {
-            if (mm == 2 && ((yy % 4) == 0) && ((yy % 100) != 0 || (yy % 400) == 0)) {
-                if (dd > 29) {
-                    mm++;
-                    dd = 1;
-                }
+        d++;
+        if (d > days_in_months[m]) {
+            if (m == 2 && ((y % 4) == 0) && ((y % 100) != 0 || (y % 400) == 0)) {
+                m++;
+                d = 1;
             } else {
-                dd = 1;
-                mm++;
-                if (mm > 12) {
-                    mm = 1;
-                    yy++;
+                d = 1;
+                m++;
+                if (m > 12) {
+                    m = 1;
+                    y++;
                 }
             }
         }
@@ -56,16 +60,16 @@ public:
     }
 
 
-    friend std::ostream& operator<<(std::ostream &os, const Date &date) 
+    friend std::ostream& operator<<(std::ostream& os, const Date& d) 
     {
-        os << date.yy << "/" << date.mm << "/" << date.dd;
+        os << d.y << "/" << d.m << "/" << d.d;
         return os;
     }
 };
 
 int main() 
 {
-    Date d(2020, 3, 30);
+    Date d(2021, 2, 29);
     std::cout << ++d<< std::endl;
     std::cout << d++ << std::endl;
 }
